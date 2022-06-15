@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+#header .fa {
+    color: chocolate;
+}
+
+#header .fa-shopping-cart {
+    color: white;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+/* Header */
+
+#header {
+    background-color: yellow;
+    padding: 10px;
+}
+
+#header .header_img .img {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+#header .header_thongtin .name {
+    font-size: 32px;
+    color: blue;
+    font-weight: 500;
+}
+
+#header .header_thongtin .ttin {
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+#header .header_thongtin .ttin span {
+    color: blue;
+}
+
+#header .giohangimg {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#header .giohangimg:hover {
+    opacity: 0.7;
+}
+
+/* Menu */
+
+#menu {
+    background-color: #333;
+}
+
+/* .menuleft ul {
+    padding: 10px;
+} */
+
+.menuleft ul li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+.menuleft li:hover a {
+    color: white;
+}
+
+.menuleft .link {
+    color: gray;
+    text-decoration: none;
+}
+
+.menuleft ul li:first-child a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menuright .search,
+.menuright .search-btn {
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.menuright .search {
+    width: 250px;
+}
+
+.menuright .search-btn {
+    width: 100px;
+    margin-left: 5px;
+    background-color: gray;
+    color: yellow;
+    border-color: yellow;
+}
+
+.menuright .search-btn:hover {
+    opacity: 0.7;
+}
+
+/* Content */
+#content {
+    background-color: yellow;
+    padding-bottom: 5px;
+}
+
+#content .chude,
+#content .chude-mobile {
+    padding: 10px;
+    background-color: white;
+    background-color: rgb(5, 182, 182);
+    color: white;
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+    border-radius: 5px;
+}
+
+#content .danhmuc {
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    color: chocolate;
+}
+
+#carouselId {
+    padding: 10px 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: chocolate;
+}
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.carousel-indicators li {
+    background-color: chocolate;
+}
+
+.content-right .khung {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px gray;
+}
+
+.content-right img {
+    width: 100%;
+}
+
+.content-right .tensp {
+    color: blue;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.content-right .giasp {
+    color: red;
+    margin: 10px 0;
+}
+
+.content-right .thaotac-1,
+.content-right .thaotac-2 {
+    display: inline-block;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.content-right .thaotac-1 {
+    background-color: red;
+}
+
+.content-right .thaotac-2 {
+    border: 1px solid blue;
+}
+
+.content-right .fa-shopping-cart {
+    color: white;
+}
+
+.content-right .fa-book {
+    color: blue;
+}
+
+/* Footer */
+
+#footer {
+    background-color: black;
+}
+
+#footer .by{
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobiles */
+
+input[type=radio]{
+    width: 15px;
+    height: 15px;
+}
+
+#content .text-mobiles {
+    font-size: 20px;
+}
+
+/* Liên hệ */
+
+#lienhe .thaotac-1,
+#lienhe .thaotac-2,
+#lienhe .thaotac-3 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+#lienhe .thaotac-1:hover,
+#lienhe .thaotac-2:hover {
+    opacity: 0.7;
+}
+
+#lienhe .thaotac-1 {
+    background-color: green;
+    margin-right: 10px;
+}
+
+#lienhe .thaotac-2 {
+    background-color: red;
+    margin-right: 10px;
+}
+
+#lienhe .thaotac-3 {
+    background-color: chocolate;
+}
+
+#lienhe .lhvct {
+    border: 1px solid red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#lienhe hr {
+    border-color: red;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 32px;
+    font-style: italic;
+    padding-left: 5px;
+    border: none;
+}
+
+#lienhe .ggmap {
+    border: 1px solid red;
+    width: 100%;
+    height: 520px;
+}
+
+/* Giỏ hàng */
+
+#lienhe .ghcb {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ttgh div:first-child{
+    font-size: 24px;
+    color: blue;
+    text-transform: uppercase;;
+}
+
+.ttgh div {
+    font-weight: 700;
+}
+
+.ttgh input[type=text],
+.ttgh input[type=date] {
+    border: none;
+    width: 100%;
+}
+
+#lienhe table th {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#lienhe table thead th {
+    font-weight: 600;
+}
+
+#lienhe table thead {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#lienhe table .fa-trash-o {
+    color: red;
+}
+
+#lienhe table .ttt div {
+    color: red;
+    text-align: right;
+    font-size: 20px;
+}
+
+#lienhe table .ttt span {
+    font-weight: 700;
+    font-size: 20px;
+}
